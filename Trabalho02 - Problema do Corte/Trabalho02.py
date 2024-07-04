@@ -109,7 +109,7 @@ def ler_entrada(arquivo):
 
 # Leitura da entrada e resolucao do problema
 if __name__ == '__main__':
-    arquivo_entrada = 'input.txt'
+    arquivo_entrada = 'arquivo.txt'
     dados = ler_entrada(arquivo_entrada)
     maquina = Maquina(dados)
     maquina.definir_variaveis_de_decisao()
